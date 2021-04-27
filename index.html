@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>my fam</title>
+    </head>
+    <body>
+        <center>
+        <h1>my Family book</h1><img id="area" src="my fam.jpg"><br>
+        <h6 id="Papa"></h6>
+        <button onclick="next()">next</button>
+    </body>
+    <script>
+        var number=["mom.jpg","mi mejor.jpg","meh.jpg","gpapa.jpg","gmama.jpg","whatever.jpg","s.jpg","s and s.jpg","carol.jpg","bh.jpg","mgmama.jpg","g.jpg","a.jpg","ch.jpg"];
+        var name1=["Mom","papa","me","grandpa","grandma","Riya didi","shruti didi","Shikha and smrity didi","Carol didi","sakchi","nani","Gaurav","Alex","soumya "];
+        var i=0;
+        function next(){
+            document.getElementById("area").src=number[i];
+            document.getElementById("Papa").innerHTML=name1[i];
+            i=i+1;
+        }
+    </script>
+    </center>
+    </html>
